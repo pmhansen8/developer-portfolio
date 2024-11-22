@@ -27,12 +27,5 @@ export const experiences = [
     company: "Amazon Web Services",
     duration: "(May 2024 - AUG 2024)"
   },
-  {
-    id: 5,
-    title: "Web Developer",
-    photo: "/josesolis.png",
-    company: "Homes By Jose Solis",
-    duration: "(AUG 2024 - OCT 2024)"
-  },
 
 ]
