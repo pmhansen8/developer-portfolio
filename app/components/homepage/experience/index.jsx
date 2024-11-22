@@ -1,9 +1,11 @@
+"use client"
 import React from "react";
 import dynamic from "next/dynamic";
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import GlowCard from "../../helper/glow-card";
+import { useRouter } from 'next/navigation';
 
 // Dynamically import AnimationLottie with SSR disabled
 const AnimationLottie = dynamic(
@@ -12,6 +14,12 @@ const AnimationLottie = dynamic(
 );
 
 function Experience() {
+
+    const router = useRouter();
+
+    const handleCardClick = (url) => {
+        router.push(url);
+    };
     return (
         <div
             id="experience"
@@ -49,6 +57,7 @@ function Experience() {
                                 <GlowCard
                                     key={experience.id}
                                     identifier={`experience-${experience.id}`}
+                                    onClick={() => handleCardClick(experience.link)}
                                 >
                                     <div className="p-3 relative">
                                         <Image

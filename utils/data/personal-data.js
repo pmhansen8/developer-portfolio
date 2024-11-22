@@ -2,7 +2,7 @@ export const personalData = {
   name: "Patrick Hansen",
   profile: '/profile.png',
   designation: " Portfolio website",
-  description: "My name is Patrick Hansen. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "My name is Patrick Hansen. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. Through my professional and military experience I am able to provide value to any team!",
   email: 'Pmhansen8@gmail.com',
   address:"Orlando,FL",
   phone: '+19175267696',
