@@ -27,7 +27,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            Education
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -59,17 +59,24 @@ function Education() {
                           {education.duration}
                         </p>
                       </div>
-                      <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                        <div className="flex items-center gap-x-8 px-3 py-5">
+                            <div
+                                className="text-violet-500  transition-all duration-300 hover:scale-125 border-2  rounded-full min-h-[100px]">
+                                <Image
+                                    src={education.photo}
+                                    alt="Hero"
+                                    width={100}
+                                    height={200}
+                                    className=" rounded-full min-h-[100px]"
+                                />
+                            </div>
+                            <div>
+                                <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                                    {education.title}
+                                </p>
+                                <p className="text-sm sm:text-base">{education.institution}</p>
+                            </div>
                         </div>
-                        <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {education.title}
-                          </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
-                        </div>
-                      </div>
                     </div>
                   </GlowCard>
                 ))

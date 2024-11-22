@@ -1,20 +1,16 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Bachelors Degree",
+    duration: "AUG 2023 - DEC 2025",
+    photo: "/ucf.png",
+    institution: "University of Central Florida",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
-  },
-  {
-    id: 3,
-    title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    title: "Associates Degree",
+    duration: "JAN 2022 - AUG 2023",
+    photo: "/valencia.png",
+    institution: "Valencia College",
   }
 ]

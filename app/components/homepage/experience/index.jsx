@@ -7,6 +7,7 @@ import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
 import experience from '/public/lottie/code.json';
 
+
 function Experience() {
   return (
     <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
@@ -55,8 +56,14 @@ function Experience() {
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
-                        <div className="text-violet-500  transition-all duration-300 hover:scale-125">
-                          <BsPersonWorkspace size={36} />
+                        <div className="text-violet-500  transition-all duration-300 hover:scale-125 border-2  rounded-full min-h-[100px]">
+                            <Image
+                                src= {experience.photo}
+                                alt="Hero"
+                                width={100}
+                                height={200}
+                                className=" rounded-full min-h-[100px]"
+                            />
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">

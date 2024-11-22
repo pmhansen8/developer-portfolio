@@ -24,9 +24,9 @@ function HeroSection() {
         <div className="order-2 lg:order-1 flex flex-col items-start justify-center p-2 pb-20 md:pb-10 lg:pt-10">
           <h1 className="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
             Hello, <br />
-            This is {' '}
+            My name is {' '}
             <span className=" text-pink-500">{personalData.name}</span>
-            {` , I'm a Professional `}
+            {` , Welcome to my`}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
             .
           </h1>
@@ -46,13 +46,7 @@ function HeroSection() {
             >
               <BsLinkedin size={30} />
             </Link>
-            <Link
-              href={personalData.facebook}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaFacebook size={30} />
-            </Link>
+
             <Link
               href={personalData.leetcode}
               target='_blank'
@@ -60,13 +54,7 @@ function HeroSection() {
             >
               <SiLeetcode size={30} />
             </Link>
-            <Link
-              href={personalData.twitter}
-              target='_blank'
-              className="transition-all text-pink-500 hover:scale-125 duration-300"
-            >
-              <FaTwitterSquare size={30} />
-            </Link>
+
           </div>
 
           <div className="flex items-center gap-3">
@@ -108,7 +96,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Patrick Hansen</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
