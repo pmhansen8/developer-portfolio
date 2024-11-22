@@ -5,7 +5,7 @@ export const experiences = [
     photo: "/leidos.jpg",
     link: "https://www.leidos.com/capabilities/digital-modernization/cloud",
     company: "Leidos",
-    team: "Cloud Infrastructure",
+    team: "National Security Software & Cloud",
     duration: "Jan 2025"
   },{
     id: 2,
@@ -21,7 +21,7 @@ export const experiences = [
     photo: "/creatingreal.png",
     link:"https://www.creatingreal.com/",
     company: "Creating Real",
-    team: "Infrastructure / Web Development",
+    team: "Cloud Infrastructure & Web Development",
     duration: "(AUG 2024 - NOV 2024)"
   },{
     id: 4,
