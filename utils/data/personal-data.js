@@ -8,6 +8,6 @@ export const personalData = {
   phone: '+19175267696',
   github: 'https://github.com/pmhansen8',
   linkedIn:  'https://www.linkedin.com/in/patrick-hansen-69477526b/',
-  leetcode: "https://leetcode.com/said3812/",
+  leetcode: "https://leetcode.com/u/pmhansen8/",
   resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
 }
