@@ -68,13 +68,14 @@ function Education() {
                                             </p>
                                         </div>
                                         <div className="flex items-center gap-x-8 px-3 py-5">
-                                            <div className="text-violet-500 transition-all duration-300 hover:scale-125 border-2 rounded-full min-h-[100px]">
+                                            <div
+                                                className="text-violet-500 transition-all duration-300 hover:scale-125 border-2 rounded-full min-h-[100px] max-w-[100px]">
                                                 <Image
                                                     src={education.photo}
                                                     alt={education.title}
                                                     width={100}
                                                     height={200}
-                                                    className="rounded-full min-h-[100px]"
+                                                    className="rounded-full w-full h-full object-cover"
                                                 />
                                             </div>
                                             <div>
