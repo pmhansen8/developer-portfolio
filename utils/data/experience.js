@@ -2,10 +2,10 @@ export const experiences = [
   {
     id: 1,
     title: 'Incoming Software Engineer Intern',
-    photo: "/leidos.jpg",
-    link: "https://www.leidos.com/capabilities/digital-modernization/cloud",
-    company: "Leidos",
-    team: "National Security Software & Cloud",
+    photo: "/disney.jpg",
+    link: "https://jobs.disneycareers.com/our-work",
+    company: "Disney",
+    team: "Labor Systems Web Integration",
     duration: "Jan 2025"
   },{
     id: 2,
