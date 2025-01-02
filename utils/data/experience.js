@@ -6,7 +6,7 @@ export const experiences = [
     link: "https://jobs.disneycareers.com/our-work",
     company: "Disney",
     team: "Labor Systems Web Integration",
-    duration: "(Jan 2025 - Present)"
+    duration: "(Jan 2025 - PRESENT)"
   },{
     id: 2,
     title: "Motor Transport Operator",
