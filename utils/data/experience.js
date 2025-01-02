@@ -1,12 +1,12 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Incoming Software Engineer Intern',
+    title: 'Software Engineer Intern',
     photo: "/disney.jpg",
     link: "https://jobs.disneycareers.com/our-work",
     company: "Disney",
     team: "Labor Systems Web Integration",
-    duration: "Jan 2025"
+    duration: "(Jan 2025 - Present)"
   },{
     id: 2,
     title: "Motor Transport Operator",
